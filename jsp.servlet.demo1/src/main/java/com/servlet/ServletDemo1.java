@@ -16,6 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 public class ServletDemo1 extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		response.setContentType("text/html");		
 		PrintWriter pw = response.getWriter();
 		pw.println("Hey, This is my first program.");
 		pw.println("<h1>My first Servlet</h1>");
