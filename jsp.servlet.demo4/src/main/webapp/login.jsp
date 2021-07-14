@@ -22,7 +22,7 @@ ${msg}
   <form action="LoginServlet">
     <div class="form-group">
       <label for="usrname">User name:</label>
-      <input type=text class="form-control" id="usrname" placeholder="Enter the username" name="username">
+      <input type="text" class="form-control" id="usrname" placeholder="Enter the username" name="username">
     </div>
     <div class="form-group">
       <label for="pwd">Password:</label>
